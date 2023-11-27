@@ -1,6 +1,6 @@
 using System;
 
-class clappy
+namespace clappy;
 {
     static void Main(string[] args)
     {
