@@ -7,4 +7,5 @@ int main() {
         ++Size;
     }
     std::cout << "Size: " << Size << std::endl;
+    int a = 1, b = a, c = a + b;
 }
