@@ -5,5 +5,6 @@ create table employee(
     date_of_birth date,
     country_of_birth nvarchar(max),
     phone nvarchar(max),
-    email nvarchar(max)
+    email nvarchar(max),
+    age int
 )
