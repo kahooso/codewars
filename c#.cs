@@ -12,6 +12,8 @@ namespace clappy;
     }
     static void Main(string[] args)
     {
-        Console.WriteLine ("This is my first project. Good morning guys!");
+        string employeeName = Console.ReadLine();
+        Employee employee = new Employee(employeeName, 36)
+        Console.WriteLine ($"Good morning, {employeeName}!");
     }
 }
